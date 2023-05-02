@@ -36,7 +36,7 @@
 	--text-light:#686666da;
 	--bg-color:#0f0f0f;
 	--white:#ffffff;
-	--mid-night: #3d3d3d;
+	--mid-night: #104f55;
 
 	/*Gradient Color*/
 	--sky:linear-gradient(120deg,#a1c4fd 0%, #c2e9fb 100%);
@@ -46,36 +46,39 @@
 
 	/*=========Font Family==========*/
 
-	/*Lato -Navbar*/
-	--Lato:'Lato', cursive;
+	/*Abel -Navbar*/
+	--Abel:'Abel', cursive;
 
-	/*Catamaran*/
-	--Catamaran:'Catamaran', cursive;
+	/*Josefin_Sans*/
+	--Josefin:'Josefin', cursive;
+
+	/*Lexend*/
+	--Lexend:'Lexend', cursive;
 }
 /*========Variable Section End========*/
 
 /*=======01) Global CSS Section=======*/
 h1{
-	font-family: var(--Catamaran);
+	font-family: var(--Josefin);
 	font-size: 2.5rem;
 }
 h2{
-	font-family:var(--Lato);
+	font-family:var(--Lexend);
 	font-size: 28px;
 	color: #576671;
 }
 h3{
-	font-family: var(--Lato);
+	font-family: var(--Abel);
 	font-size: 1.5rem;
 }
 p{
-	font-family: var(--Lato);
+	font-family: var(--Lexend);
 	font-size: 13px;
 	text-align: center;
 	line-height: 35px;
 }
 span{
-	font-family: var(--Lato);
+	font-family: var(--Abel);
 }
 
 section {
