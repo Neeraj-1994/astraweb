@@ -36,7 +36,7 @@
 	--text-light:#686666da;
 	--bg-color:#0f0f0f;
 	--white:#ffffff;
-	--mid-night: #104f55;
+	--mid-night: #3d3d3d;
 
 	/*Gradient Color*/
 	--sky:linear-gradient(120deg,#a1c4fd 0%, #c2e9fb 100%);
@@ -142,7 +142,7 @@ header ul li a:hover{
 /*========03) About Section=======*/
 #about span,
 #our-service span,
-#team span,
+#specialist span,
 #pricing span {
 	height: 5px;
 	width: 50px;
@@ -272,10 +272,10 @@ header ul li a:hover{
 	margin: 0 auto;
 }
 /*========08) Team Section*/
-#team .card{
+#specialist .card{
 	transition: all 0.7s ease;
 }
-#team .card:hover{
+#specialist .card:hover{
 	border: none;
 	background:#17daa3;
 	color: #fff;
@@ -284,41 +284,6 @@ header ul li a:hover{
 	transform: scale(1.1);
 }
 
-
-/*========09) Pricing Section*/
-
-#pricing{
-	background: #f9f9fa;
-}
-#pricing .card h2{
-	color: #17daa3;
-	cursor: pointer;
-}
-#pricing .card-header{
-	padding: 30px 10px;
-}
-#pricing .card-footer{
-	padding: 1px;
-	overflow: hidden;
-}
-#pricing .btn{
-	background: #17daa3;
-	border-radius: 2px;
-	border-style: none;
-	text-transform: uppercase;
-	transition: all 0.5s ease;
-}
-#pricing .btn:hover{
-	transform: scale(1.1);
-}
-#pricing .btn:focus, #pricing .btn:active{
-	outline: none !important;
-   	box-shadow: none;
-}
-#pricing .svg-inline--fa.fa-briefcase.fa-w-16.float-right{
-	font-size: 20px;
-	margin-left: 115px;
-}
 
 /*========10) Location Section*/
 
